@@ -27,7 +27,9 @@ const resultText = document.querySelector('.result-text')
 // -- Stored Number
 //=====================================================================
 
-const storedNumber = 7
+const storedNumber = Math.floor(Math.random() * 10)
+
+console.log("Computer Selected: " + storedNumber)
 
 
 //=====================================================================
