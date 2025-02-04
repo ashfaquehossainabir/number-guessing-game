@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+
+    <!-- CSS Source -->
+    <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+    <!--============================================
+    ----  App Section
+    =============================================-->
+
+    <section class="contents">
+        <div class="box one">
+            <h1>
+                Player One Name
+            </h1>
+    
+            <input type="text" class="inputOne" placeholder="Enter Your Name"/>
+    
+            <button class="submit-btn-one">Submit</button>
+        </div>
+
+        <div class="box two">
+            <h1>
+                Hey <span class="player-one-name"></span>!
+            </h1>
+
+            <p>
+                Enter Your Guess Number
+            </p>
+    
+            <input type="number" class="guess-player-one" placeholder="Enter Number between 0 to 9"/>
+    
+            <button class="submit-btn-two">Submit</button>
+        </div>
+
+        <div class="box three">
+            <h1>
+                Player Two Name
+            </h1>
+    
+            <input type="text" class="inputTwo" placeholder="Enter Your Name"/>
+    
+            <button class="submit-btn-three">Submit</button>
+        </div>
+
+        <div class="box four">
+            <h1>
+                Hey <span class="player-two-name"></span>!
+            </h1>
+
+            <p>
+                Enter Your Guess Number
+            </p>
+    
+            <input type="number" class="guess-player-two" placeholder="Enter Number between 0 to 9"/>
+    
+            <button class="submit-btn-four">Submit</button>
+        </div>
+
+        <div class="box result">
+            <h1>
+                Hey <span class="players-display"></span>!
+            </h1>
+
+            <p class="result-text"></p>
+
+            <button onclick="reloadFunc()">Restart Game</button>
+        </div>
+    </section>
+
+
+    <!-- JS Source -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
