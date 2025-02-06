@@ -93,7 +93,7 @@ submitBtnFour.onclick = function () {
         resultText.innerHTML = "Congratulations! You won"
     }  else {
         playersDisplay.innerHTML = "Both of you"
-        resultText.innerHTML = "Game over! You all lost this game"
+        resultText.innerHTML = "Game over! You guessed the wrong number"
     }
 
     if(storedNumber == guessPlayerOne.value && storedNumber == guessPlayerTwo.value) {
