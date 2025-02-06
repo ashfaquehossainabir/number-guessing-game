@@ -97,8 +97,8 @@ submitBtnFour.onclick = function () {
     }
 
     if(storedNumber == guessPlayerOne.value && storedNumber == guessPlayerTwo.value) {
-        playersDisplay.innerHTML = "Both of you"
-        resultText.innerHTML = "Congratulations! You all win this game"
+        playersDisplay.innerHTML = "It's a tie game"
+        resultText.innerHTML = "Both of you guessed the same number"
     }
 }
 
